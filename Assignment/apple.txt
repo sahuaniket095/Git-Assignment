@@ -1,0 +1,41 @@
+
+A text file answering the following Git command-related questions:
+
+Command to initialize a Git repository.
+Ans. git init
+
+Command to clone a remote repository.
+Ans. git clone <repo-url>
+
+Command to stage all changes.
+Ans. git add .
+
+Command to view the state of the working directory and staging area.
+Ans. git status
+
+Command to create a new branch
+Ans. git branch <branch-name> 
+
+Command to switch branches.
+Ans. git checkout <branch-name>
+
+Command to clean the staging area.
+Ans. git reset
+
+Command to fetch commits and changes from a remote branch (without merging).
+Ans. git fetch origin <branch-name>
+
+Command to fetch and merge changes from a remote branch.
+Ans. git pull origin <branch-name>
+
+Command to cherry-pick a commit with SHA 092018283103810930.
+Ans. git cherry-pick 092018283103810930
+
+Command to push a branch.
+Ans. git push origin <branch-name>
+
+Command to delete a remote branch.
+Ans. git push origin --delete <branch-name>
+
+Command to perform iterative rebasing.
+Ans. git rebase -i HEAD~<n>
